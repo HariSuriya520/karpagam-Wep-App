@@ -1,0 +1,64 @@
+{
+    "class": [
+        {
+            "Day": "Monday",
+            "Period1": "Subject1",
+            "Period2": "Subject4",
+            "Period3": "Subject5",
+            "Period4": "Subject7",
+            "Period5": "Subject6",
+            "Period6": "Subject3",
+            "Period7": "Subject6"
+        },
+        {
+            "Day": "Tuesday",
+            "Period1": "Subject1",
+            "Period2": "Subject4",
+            "Period3": "Subject6",
+            "Period4": "Subject2",
+            "Period5": "Subject2",
+            "Period6": "Subject7",
+            "Period7": "Subject5"
+        },
+        {
+            "Day": "Wednessday",
+            "Period1": "Subject7",
+            "Period2": "Subject2",
+            "Period3": "Subject5",
+            "Period4": "Subject5",
+            "Period5": "Subject1",
+            "Period6": "Subject6",
+            "Period7": "Subject4"
+        },
+        {
+            "Day": "Thursday",
+            "Period1": "Subject7",
+            "Period2": "Subject5",
+            "Period3": "Subject3",
+            "Period4": "Subject1",
+            "Period5": "Subject2",
+            "Period6": "Subject2",
+            "Period7": "Subject4"
+        },
+        {
+            "Day": "Friday",
+            "Period1": "Subject4",
+            "Period2": "Subject3",
+            "Period3": "Subject5",
+            "Period4": "Subject6",
+            "Period5": "Subject2",
+            "Period6": "Subject1",
+            "Period7": "Subject6"
+        },
+        {
+            "Day": "Saturday",
+            "Period1": "Subject1",
+            "Period2": "Subject2",
+            "Period3": "Subject2",
+            "Period4": "Subject3",
+            "Period5": "Subject3",
+            "Period6": "Subject5",
+            "Period7": "Subject4"
+        }
+    ]
+}
