@@ -1,0 +1,46 @@
+{
+    "users":[
+        {
+            "NAME": "Zane",
+            "AGE": "54",
+            "CITY": "Cava",
+            "PINCODE": "60693",
+            "FILE": "<button type='button' class='btn btn-primary'>Download</button>"
+        },
+        {
+            "NAME": "Zane",
+            "AGE": "54",
+            "CITY": "Cava",
+            "PINCODE": "60693",
+            "FILE": "<button type='button' class='btn btn-primary'>Download</button>"
+        },
+        {
+            "NAME": "Zane",
+            "AGE": "54",
+            "CITY": "Cava",
+            "PINCODE": "60693",
+            "FILE": "<button type='button' class='btn btn-primary'>Download</button>"
+        },
+        {
+            "NAME": "Zane",
+            "AGE": "54",
+            "CITY": "Cava",
+            "PINCODE": "60693",
+            "FILE": "<button type='button' class='btn btn-primary'>Download</button>"
+        },
+        {
+            "NAME": "Zane",
+            "AGE": "54",
+            "CITY": "Cava",
+            "PINCODE": "60693",
+            "FILE": "<button type='button' class='btn btn-primary'>Download</button>"
+        },
+        {
+            "NAME": "Zane",
+            "AGE": "54",
+            "CITY": "Cava",
+            "PINCODE": "60693",
+            "FILE": "<button type='button' class='btn btn-primary'>Download</button>"
+        }
+    ]
+}

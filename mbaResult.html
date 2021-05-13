@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>KCE</title>
+
+        <!-- Styles CDNs -->
+        <!-- Bootstrap CDN -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <!-- Font Awesome CDN -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+        <!-- Data Tables CDN -->
+        <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap4.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/buttons/1.6.5/css/buttons.bootstrap4.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/select/1.3.1/css/select.dataTables.min.css">
+        <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.6/css/responsive.bootstrap4.min.css">
+        <!-- Support CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/css/select2.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notiflix@2.6.0/src/notiflix.min.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="flaticon/font/flaticon.css">
+        <link rel="stylesheet" href="mbaResult.css">
+        <!-- End -->
+    </head>
+    <body>
+        
+        <!-- Side Bar -->
+        <div id="wrapper">
+            <div class="overlay"></div>
+            <!-- Sidebar -->
+            <nav class="fixed-top align-top" id="sidebar-wrapper" role="navigation">
+                <div class="simplebar-content" style="padding: 0px;">
+                    <a class="sidebar-brand" href="index.html"><span class="align-middle">KCE</span></a>
+                    <ul class="navbar-nav align-self-stretch">
+                        <li class=""><a class="nav-link text-left" role="button" href="DashBoard.html"><i class="flaticon-025-house"></i>  Home</a></li>
+                        <!-- Exam -->
+                        <li class="sidebar-header"><i class="flaticon-028-open-book"></i>   Exam Results</li>
+                        <!-- BE -->
+                        <li class="has-sub"><a class="nav-link collapsed text-left" href="#collapseDepartmentExamBE" role="button" data-toggle="collapse" ><i class="flaticon-user"></i>B.E.</a>
+                            <div class="collapse menu mega-dropdown" id="collapseDepartmentExamBE">
+                                <div class="dropmenu" aria-labelledby="navbarDropdown">
+                                    <div class="container-fluid ">
+                                        <div class="row">
+                                            <div class="col-lg-12 px-2">
+                                                <div class="submenu-box"> 
+                                                    <ul class="list-unstyled m-0">
+                                                        <li><a href="be.html">I Year</a></li>
+                                                        <li><a href="autoResult.html">Automobile</a></li>
+                                                        <li><a href="civilResult.html">Civil</a></li>
+                                                        <li><a href="cseResult.html"> CSE</a></li>
+                                                        <li><a href="cstResult.html">CST</a></li>
+                                                        <li><a href="cybersecurityResult.html">Cyber Security</a></li>
+                                                        <li><a href="eceResult.html">ECE</a></li>
+                                                        <li><a href="eeeResult.html">EEE</a></li>
+                                                        <li><a href="eieResult.html">EIE</a></li>
+                                                        <li><a href="eteResult.html">ETE</a></li>
+                                                        <li><a href="mechResult.html">Mechanical</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- End -->
+                        <!-- BTech -->
+                        <li class="has-sub"><a class="nav-link collapsed text-left" href="#collapseDepartmentExamBTech" role="button" data-toggle="collapse" ><i class="flaticon-user"></i>B.Tech.</a>
+                            <div class="collapse menu mega-dropdown" id="collapseDepartmentExamBTech">
+                                <div class="dropmenu" aria-labelledby="navbarDropdown">
+                                    <div class="container-fluid ">
+                                        <div class="row">
+                                            <div class="col-lg-12 px-2">
+                                                <div class="submenu-box"> 
+                                                    <ul class="list-unstyled m-0">
+                                                        <li><a href="btech.html">I Year</a></li>
+                                                        <li><a href="aiResult.html">Artificial Inteligence</a></li>
+                                                        <li><a href="itResult.html">Information Technology</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- End -->
+                        <!-- Masters -->
+                        <li class="has-sub"><a class="nav-link collapsed text-left" href="#collapseDepartmentExamMasters" role="button" data-toggle="collapse" ><i class="flaticon-user"></i>Masters</a>
+                            <div class="collapse menu mega-dropdown" id="collapseDepartmentExamMasters">
+                                <div class="dropmenu" aria-labelledby="navbarDropdown">
+                                    <div class="container-fluid ">
+                                        <div class="row">
+                                            <div class="col-lg-12 px-2">
+                                                <div class="submenu-box"> 
+                                                    <ul class="list-unstyled m-0">
+                                                        <li><a href="mbaResult.html" class="active">MBA</a></li>
+                                                        <li><a href="mcaResult.html">MCA</a></li>
+                                                        <li><a href="mecsResult.html">M.E. Communication Systems</a></li>
+                                                        <li><a href="memtsResult.html">M.E. Mechatronics</a></li>
+                                                        <li><a href="mevlsiResult.html">M.E. VLSI Design</a></li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- End -->
+                        <!-- Attendance -->
+                        <li class="sidebar-header"><i class="flaticon-001-clipboard"></i>   Attendance</li>
+                        <!-- BE -->
+                        <li class=""><a class="nav-link text-left" href="Attendance.html"  role="button" ><i class="flaticon-bar-chart-1"></i>Attendance</a></li>
+                        <!-- End -->
+                        <!-- TimeTable -->
+                        <li class="sidebar-header"><i class="flaticon-033-pie-chart"></i>   Time Tables</li>
+                        <!-- BE -->
+                        <li class=""><a class="nav-link text-left" href="Timetable.html" role="button" ><i class="flaticon-bar-chart-1"></i>Class Time Table</a></li>
+                        <li class=""><a class="nav-link text-left"  role="button" ><i class="flaticon-bar-chart-1"></i>Exam Time Table</a></li>
+                        <!-- End -->
+                        <li class="sidebar-header"><i class="flaticon-061-settings">    Services</i></li>
+                        <li class=""><a class="nav-link text-left"  role="button" ><i class="flaticon-bar-chart-1"></i>Fees</a></li>
+                        <li class=""><a class="nav-link text-left"  role="button" ><i class="flaticon-bar-chart-1"></i>Leave</a></li>
+                        <li class=""><a class="nav-link text-left"  role="button" ><i class="flaticon-bar-chart-1"></i>On-Duty</a></li>
+                        <li class=""><a class="nav-link text-left"  role="button" ><i class="flaticon-bar-chart-1"></i>Bonafide</a></li>
+                        <li class=""><a class="nav-link text-left"  role="button" ><i class="flaticon-bar-chart-1"></i>Scholarship</a></li>
+                        <li class=""><a class="nav-link text-left"  role="button" ><i class="flaticon-bar-chart-1"></i>Wifi</a></li>
+                        <li class=""><a class="nav-link text-left"  role="button" ><i class="flaticon-bar-chart-1"></i>Announcement</a></li>
+                        <li class=""><a class="nav-link text-left" href="Notification.html" role="button" ><i class="flaticon-map"></i>Notification</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- End -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div id="content">
+                <div class="container-fluid p-0 px-lg-0 px-md-0">
+                    <!-- Topbar -->
+                    <nav class="navbar navbar-expand navbar-light my-navbar">
+                    <!-- Sidebar Toggle (Topbar) -->
+                        <div type="button"  id="bar" class="nav-icon1 hamburger animated fadeInLeft is-closed" data-toggle="offcanvas">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <!-- Topbar Search -->
+                        <form class="d-none d-sm-inline-block form-inline navbar-search">
+                            <div class="input-group">
+                                <input type="text" class="form-control bg-light " placeholder="Search for..." aria-label="Search">
+                                <div class="input-group-append">
+                                    <button class="btn btn-primary" type="button"><i class="fa fa-search fa-sm"></i></button>
+                                </div>
+                            </div>
+                        </form>
+    
+                        <!-- Topbar Navbar -->
+                        <ul class="navbar-nav ml-auto">
+                            <!-- Nav Item - Search Dropdown (Visible Only XS) -->
+                            <li class="nav-item dropdown  d-sm-none">
+                                <!-- Dropdown - Messages -->
+                                <div class="dropdown-menu dropdown-menu-right p-3">
+                                    <form class="form-inline mr-auto w-100 navbar-search">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control bg-light border-0 small" placeholder="Search for..." >
+                                            <div class="input-group-append">
+                                                <button class="btn btn-primary" type="button"><i class="fa fa-search fa-sm"></i></button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </li>
+    
+                            <!-- Nav Item - Alerts -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-icon dropdown" href="#" id="alertsDropdown" data-toggle="dropdown" aria-expanded="false">
+                                    <div class="position-relative">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell align-middle"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+                                        <span class="indicator">4</span>
+                                    </div>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right py-0" aria-labelledby="alertsDropdown">
+                                    <div class="dropdown-menu-header">4 New Notifications</div>
+                                    <div class="list-group">
+                                        <a href="#" class="list-group-item">
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col-2">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-alert-circle text-danger"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
+                                                </div>
+                                                <div class="col-10">
+                                                    <div class="text-dark">Update completed</div>
+                                                    <div class="text-muted small mt-1">Restart server 12 to complete the update.</div>
+                                                    <div class="text-muted small mt-1">30m ago</div>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="dropdown-menu-footer"><a href="#" class="text-muted">Show all notifications</a></div>
+                                </div>
+                            </li>
+                            <!-- Nav Item - Messages -->
+                            <li class="nav-item">
+                                <a class="nav-link " href="#" role="button">
+                                    <i class="fa fa-envelope"></i>
+                                    <!-- Counter - Messages -->
+                                    <span class="badge badge-danger badge-counter">7</span>
+                                </a>
+                            </li>
+                
+                            <!-- Nav Item - User Information -->
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown">
+                                    <span class="mr-2 d-none d-lg-inline text-gray-600 small">Admin</span>
+                                    <img class="img-profile rounded-circle" src="images/logo0.png">
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+        <!-- Pills -->
+        <div class="container my-3">
+            <h3 class="h3 text-center">MBA Exam Results</h3>
+            <table id="tabledatamba2" class="table table-bordered table-striped"></table>
+        </div>
+        <!-- End -->
+
+        <!-- End of Topbar -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <!-- Scripts CDNs -->
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.3/umd/popper.min.js"></script>
+        <!-- Bootstrap CDN -->
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/dexie/3.0.2/dexie.js"></script>
+        <!-- Data Tables CDN -->
+        <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap4.min.js"></script>
+        <script src="https://cdn.datatables.net/buttons/1.6.5/js/dataTables.buttons.min.js"></script>
+        <script src="https://cdn.datatables.net/buttons/1.6.5/js/buttons.bootstrap4.min.js"></script>
+        <script src="https://cdn.datatables.net/select/1.3.1/js/dataTables.select.min.js"></script>
+        <script src="https://cdn.datatables.net/responsive/2.2.6/js/dataTables.responsive.min.js"></script>
+        <script src="https://cdn.datatables.net/responsive/2.2.6/js/responsive.bootstrap4.min.js"></script>
+        <!-- Support CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.13/js/select2.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.20/jquery.datetimepicker.full.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/notiflix@2.6.0/dist/notiflix-aio-2.6.0.min.js"></script>
+        <script src="dataTables.altEditor.free.js"></script>
+        <!-- Custom JavaScript -->
+        <script src="mbaResult.js"></script>
+    </body>
+</html>

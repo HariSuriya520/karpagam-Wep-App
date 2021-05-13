@@ -1,0 +1,24 @@
+{
+    "exam":[
+        {
+            "Date": "1/03/2020",
+            "FN": "Subject 1",
+            "AN": "Subject 2"
+        },
+        {
+            "Date": "2/03/2020",
+            "FN": "Subject 3",
+            "AN": ""
+        },
+        {
+            "Date": "3/03/2020",
+            "FN": "",
+            "AN": "Subject 4"
+        },
+        {
+            "Date": "4/03/2020",
+            "FN": "Subject 5",
+            "AN": "Subject 6"
+        }
+    ]
+}

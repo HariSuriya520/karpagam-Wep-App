@@ -1,0 +1,25 @@
+{
+    "attendance":[
+        {
+            "RollNo": "17P124",
+            "Name": "Iswar",
+           "Attendance1": "P",
+           "Attendance2": "A",
+           "Attendance3": "P"
+        },
+        {
+            "RollNo": "18A503",
+            "Name": "Murali",
+           "Attendance1": "P",
+           "Attendance2": "P",
+           "Attendance3": "A"
+        },
+        {
+            "RollNo": "18A502",
+            "Name": "Hari Hara Sudhan",
+           "Attendance1": "A",
+           "Attendance2": "P",
+           "Attendance3": "A"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "fnotificaitons": [
+        {
+            "Notifications": "Last date to update students database 09-12-2020",
+            "Action": "<button class='btn btn-primary' type='submit'>View</button>"            
+        },
+        {
+            "Notifications": "YUVA 2020 is planned to be conducted through Webex Classes",
+            "Action": "<button class='btn btn-primary' type='submit'>View</button>"
+        }
+    ]
+}

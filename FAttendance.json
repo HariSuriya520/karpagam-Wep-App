@@ -1,0 +1,19 @@
+{
+    "attendance":[
+        {
+            "RollNo": "17P124",
+            "Name": "Iswar",
+           "Attendance": "<input type='checkbox'>"
+        },
+        {
+            "RollNo": "18A503",
+            "Name": "Murali",
+           "Attendance": "<input type='checkbox'>"
+        },
+        {
+            "RollNo": "18A502",
+            "Name": "Hari Hara Sudhan",
+           "Attendance": "<input type='checkbox'>"
+        }
+    ]
+}
